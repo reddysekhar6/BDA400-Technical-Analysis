@@ -1,0 +1,38 @@
+BDA400 Assignment 4 — Verification Output
+Student: Chinnakotla Reddysekhar
+
+BEFORE CLEANING
+Rows: 610
+Duplicate rows: 9
+Missing Product: 49
+Missing Quantity: 95
+Non-positive Quantity: 81
+Quantity equal to 1000: 20
+Total missing cells: 144
+
+AFTER CLEANING
+Rows: 379
+Duplicate rows: 0
+Missing Product: 0
+Missing Quantity: 0
+Non-positive Quantity: 0
+Quantity equal to 1000: 0
+Total missing cells: 0
+
+PRODUCT COUNTS AFTER CLEANING
+Product
+Widget         131
+Thingamajig    126
+Gadget         122
+
+QUANTITY COUNTS AFTER CLEANING
+Quantity
+2.0      43
+3.0      31
+5.0      36
+10.0     47
+15.0     51
+20.0     35
+25.0     35
+30.0     50
+100.0    51

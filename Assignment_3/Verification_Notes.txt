@@ -1,0 +1,25 @@
+BDA400 Assignment 3 — Function Verification Notes
+Student: Chinnakotla Reddysekhar
+Repository: https://github.com/reddysekhar6/BDA400-Technical-Analysis
+
+Test case 1 — Normal values and obvious outlier
+Input: c(10, 15, 999, 20, 25, 18, 22)
+Q1 = 16.5; Q3 = 23.5; IQR = 7
+Lower bound = 6; Upper bound = 34
+Expected cleaned result: 10, 15, 20, 25, 18, 22
+Result: 999 is outside the IQR bounds and is removed.
+
+Test case 2 — Missing value
+Input: c(10, 15, 999, 20, 25, NA, 18, 22) with na.rm = TRUE
+Expected behavior: NA is removed before quartiles are calculated.
+Expected cleaned result: 10, 15, 20, 25, 18, 22
+
+Test case 3 — Invalid input type
+Input: c("10", "20", "30", "40")
+Expected behavior: stop with the message that data must be a numeric vector.
+
+Test case 4 — Too few observations
+Input: c(10, 20, 30)
+Expected behavior: stop because at least four observations are required.
+
+The checks above are independent expected-result calculations based on the function logic and the assignment requirement.

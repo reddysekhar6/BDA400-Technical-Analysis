@@ -1,0 +1,32 @@
+---
+title: "BDA400 Technical Analysis Using R — Script Documentation"
+author: "Chinnakotla Reddysekhar"
+output: html_document
+---
+
+# Purpose
+
+This R Markdown document describes the technical-analysis project structure and the role of the supporting R scripts.
+
+## Inputs
+
+The documented source script uses a small synthetic numeric vector so that the Markdown/R Markdown workflow can be reproduced without external data.
+
+## Outputs
+
+The workflow produces stock data frames, descriptive statistics, and technical-analysis results that can be inspected or visualized.
+
+## Example Code
+
+```{r}
+source("analysis.R")
+analysis_summary
+```
+
+## Quality Checks
+
+The source script checks the synthetic data through summary statistics. Later project stages add portfolio and market-data validation.
+
+## Conclusion
+
+Using R Markdown provides a reproducible explanation of the code rather than leaving the script undocumented. This structure also makes the project easier to review and maintain in GitHub.
