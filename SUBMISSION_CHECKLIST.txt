@@ -1,0 +1,17 @@
+BDA400 FINAL SUBMISSION CHECKLIST
+
+Student: Chinnakotla Reddysekhar
+Course: BDA400 / Data Science Tools and Techniques
+Repository: https://github.com/reddysekhar6/BDA400-Technical-Analysis
+
+Included:
+- Assignment 1-5 folders
+- Required R/Rmd/Markdown files
+- Word reports and Assignment 3 reflection
+- Assignment 4 raw and cleaned datasets with before/after verification
+- Assignment 5 indicator functions and combined test script
+- AI prompts appendix
+- Verification evidence
+- README and run instructions
+
+Upload the contents of this extracted package to the GitHub repository. Do not upload this ZIP file itself.

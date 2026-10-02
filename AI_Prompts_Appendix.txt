@@ -1,0 +1,41 @@
+BDA400 AI PROMPTS APPENDIX
+Student: Chinnakotla Reddysekhar
+
+GENERAL AI ASSISTANCE DECLARATION
+AI tool: ChatGPT (GPT-5.6 Luna)
+Use: ideation, documentation structure, code-organization suggestions, explanation, and testing-plan suggestions.
+Verification: assignment instructions, supplied synthetic data, direct programmatic checks, and code review.
+Responsibility: final calculations and submission accuracy remain the student's responsibility.
+
+ASSIGNMENT 1 PROMPTS
+1. "Explain what sections a good GitHub README for an R data analysis project should include."
+2. "Revise the sections list so it’s concise and uses Markdown headers and bullet formatting."
+3. "Check the Markdown syntax for correctness and readability."
+4. "Here’s a summary of my R project: [project summary]. Generate a professional README.md file using Markdown."
+5. "Add sections for Installation, Example Code, and License. Keep tone concise and professional."
+6. "Review the Markdown for syntax errors and suggest 2 improvements for clarity."
+7. "Here’s my R script description. Suggest Markdown formatting and code block examples."
+8. "Add syntax highlighting and improve section organization (e.g., # Purpose, ## Inputs, ## Outputs)."
+9. "Is the Markdown consistent with RMarkdown best practices?"
+
+ASSIGNMENT 3 PROMPTS
+1. "Write an R function that removes outliers from a numeric vector using the IQR rule."
+2. "Revise the function to include comments, argument validation, and return a clean result."
+3. "Explain what each line of the R code does and how you might test if it works correctly."
+4. "Update the function to handle NA values."
+5. "Optimize the function for efficiency and readability."
+6. "How could you test this function with edge cases?"
+
+ASSIGNMENT 4 PROMPTS
+1. "I have a sales dataset in R with missing customer IDs, inconsistent region names, and outliers in revenue. What are common data cleaning steps I should perform using dplyr?"
+2. "Here is a sample of my data (first 10 rows). Suggest R code using dplyr to fix these issues."
+3. "Please explain what each line of your suggested R code does, and how I can confirm it worked correctly."
+4. "This AI-generated code gives an error: 'object not found'. How can I debug or rewrite it in R?"
+5. "Simplify this mutate() chain for readability."
+6. "Does this cleaning pipeline follow tidyverse best practices? Suggest improvements."
+
+ASSIGNMENT 5 DEVELOPMENT PROMPTING
+1. "Explain the supplied pseudocode for the technical-analysis function in plain language."
+2. "Translate the supplied pseudocode into readable base-R logic while preserving the required function name and arguments."
+3. "Identify edge cases that should be tested for this function."
+4. "Review the implementation structure for readability without replacing the supplied algorithm."
